@@ -1,0 +1,12 @@
+<div class="header-wrapper">
+	<bc-languages></bc-languages>
+    <nav class="navbar nav-container">
+        <a class="logo" href="#/"> НАЦИОНАЛЬНЫЙ ЮРИДИЧЕСКИЙ УНИВЕРСИТЕТ <br>имени ЯРОСЛАВА МУДРОГО <br>ЦЕНТР ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ</a>
+        <div id="navbar" class="nav-bar navbar-collapse collapse">
+            <bc-navbar></bc-navbar>
+            <form ng-submit="search()" ng-controller="BcSearchController" class="navbar-form  navbar-right">
+                <input type="text" ng-model="searchText" class="form-control" placeholder="Поиск...">
+            </form>			
+        </div>
+    </nav>
+</div>

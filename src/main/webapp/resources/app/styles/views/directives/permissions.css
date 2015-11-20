@@ -1,0 +1,9 @@
+.permissions-tbl {    
+    text-align: center;
+    margin: 0 auto;
+    width: 268px;
+}
+.permissions-tbl .permissions-tbl--cell {
+	border: none;
+	height: 21px;
+}

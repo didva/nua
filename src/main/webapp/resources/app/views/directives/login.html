@@ -1,0 +1,12 @@
+<div ng-class="{drodown: header, dropup: footer}" class="login-wrapper" ng-show="!isAuth">
+	<a class="login-btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		Вход <span class="caret"></span>
+	</a>
+	<div class="dropdown-menu">
+		<div class="login--form">
+			<input type="text" ng-model="username" class="form-control login--input" placeholder="Имя пользователя"/>
+			<input type="password" ng-model="password" class="form-control login--input" placeholder="Пароль"/>
+			<input type="button" ng-click="login()" class="btn btn-lg login--btn" value="Вход"/>
+		</div>
+	</div>
+</div>

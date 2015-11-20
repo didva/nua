@@ -1,0 +1,23 @@
+<td>{{user.username}}</td>
+<td>
+	<div ng-show="!editMode"><span ng-repeat="role in user.roles">{{role}} </span></div>
+	<div ng-show="editMode"><bc-permissions user="user"></bc-permissions></div>
+</td>
+<td>
+	<div ng-show="!editMode">
+		<button ng-click="edit()" title="Редактировать" type="button" class="users-table--action-btn" name="edit">
+			<img title="Редактировать" src="images/edit.png" />
+		</button>
+		<button ng-click="delete()" title="Удалить" type="button" class="users-table--action-btn" name="delete">
+			<img title="Удалить" src="images/delete.png" />
+		</button>
+	</div>
+	<div ng-show="editMode">
+		<button ng-click="save()" title="Сохранить" type="button" class="users-table--action-btn" name="save">
+			<img title="Сохранить" src="images/save.png"/>
+		</button>
+		<button ng-click="cancel()" title="Отменить" type="button" class="users-table--action-btn" name="cancel">
+			<img title="Отменить" src="images/cancel.png" />
+		</button>
+	</div>
+</td>

@@ -1,0 +1,27 @@
+
+.footer-wrapper {
+  margin-top: 73px;
+}
+.footer-wrapper .navbar {
+  position: absolute;
+  bottom: 0;
+}
+.footer-wrapper .nav-bar {
+  border-top: solid;
+  border-bottom: 0px;  
+  border-color: #cdbfe3;
+  background-color: #6f5499;
+}
+
+.footer-wrapper .nav-bar .navbar-nav>li a {
+  color: #FFF;
+}
+.footer-wrapper .nav-bar .navbar-nav>li a:focus {
+  color: #FFF;
+}
+.footer-wrapper .nav-bar .navbar-nav>li a:hover {
+  color: #cdbfe3;
+}
+.footer-wrapper .nav>li a:focus, .footer-wrapper .nav>li a:hover {
+    background-color: #6f5499;
+}

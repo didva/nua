@@ -1,0 +1,21 @@
+<div class="main-wrapper">
+	<h1>{{ 'MAIN_NAME' | translate }}</h1>
+	<div class="main-rector--wrapper">		
+		<div class="main-rector--text">			
+			<p>{{ 'MAIN_FOND' | translate }}</p>
+			<p>{{ 'MAIN_RECTOR' | translate }}</p>
+		</div>				
+		<div class="main-rector--img"><img src="images/rector.png"/></div>
+	</div>
+	<h3>{{ 'MAIN_COUNT' | translate }}</h3>
+	<div>
+		<div class="main-count">
+            <div class="main-count__item-count main-count__item-title">{{generalInfo.booksCount}}</div>
+            <div class="main-count__item-title main-count__books">{{ 'MAIN_BOOKS' | translate }}</div>
+        </div>
+		<div class="main-count">
+            <div class="main-count__item-count main-count__item-title">{{generalInfo.pagesCount}}</div>
+            <div class="main-count__item-title main-count__pages">{{ 'MAIN_PAGES' | translate }}</div>
+        </div>
+	</div>
+</div>

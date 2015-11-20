@@ -1,0 +1,14 @@
+<div class="profile--wrapper">
+	<div class="profile--info">
+		<div class="profile--info-img">
+			<img src="images/anon.jpg"/>
+			<div class="profile--info--name">{{user.username}}</div>
+		</div>
+		<div class="profile--change-password-form">
+			<input type="password" ng-model="newPassword" class="form-control profile--change-password-input" placeholder="Введите новый пароль"/>
+			<input type="password" ng-model="newPasswordVerification" class="form-control profile--change-password-input" placeholder="Повторите пароль"/>
+			<input type="button" ng-click="changePassword()" class="btn btn-lg profile--change-password-btn" value="Сменить пароль"/>
+		</div>
+	</div>
+	<div class="profile--change-password-info"></div>
+</div>

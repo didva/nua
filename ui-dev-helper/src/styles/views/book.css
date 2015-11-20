@@ -1,0 +1,24 @@
+.book-viewer-wrapper {
+	overflow: hidden;
+	height: 560px;
+}
+.book-viewer {
+	position: relative;
+    width: 520px;
+    height: 560px;
+    margin: 0 auto;
+    overflow: visible !important;
+}
+.book-wrapper {
+	text-align: center;
+}
+.book-viewer--spinner {
+    display: none;
+    margin-top: 240px;
+}
+.book-viewer--spinner img{
+    height: 100px;
+}
+.book-viwer--not-allowed {
+    display: none;
+}

@@ -1,0 +1,37 @@
+.booklet-wrapper {
+	text-align: center;
+}
+.booklet-viewer--page {
+	height: 580px;
+}
+
+.booklet-viewer-wrapper .booklet .b-wrap-right {
+    background: #FFF;
+    left: 0px !important;
+}
+.booklet-viewer-wrapper .booklet .b-wrap-left {
+    padding-right: 0px;
+}
+.booklet-viewer-wrapper .booklet .b-wrap-right .b-counter {
+    right: -10px;
+}
+.booklet-viewer-wrapper .booklet .b-counter {
+    bottom: -10px;
+}
+
+.booklet .b-arrow-next div {background:url("../../images/libs/arrow-next.png") no-repeat left top;}
+.booklet .b-arrow-prev div {background:url("../../images/libs/arrow-prev.png") no-repeat left top;}
+
+	/* Page Shadows */
+.booklet .b-shadow-f  {right:0; top:0; position:absolute; opacity:0; background-image:url("../../images/libs/shadow-top-forward.png"); background-repeat:repeat-y; background-position:100% 0;}
+.booklet .b-shadow-b  {left:0;  top:0; position:absolute; opacity:0; background-image:url("../../images/libs/shadow-top-back.png");    background-repeat:repeat-y; background-position:0 0;}
+
+.booklet .b-p0 {background-image:url("../../images/libs/shadow.png"); background-repeat:repeat-y; background-position:100% 10px;}
+.booklet .b-p3 {background-image:url("../../images/libs/shadow.png"); background-repeat:repeat-y; background-position:0 10px;}
+
+	/* Overlay Controls */
+.booklet .b-grab     {cursor: url("../../images/libs/openhand.cur"), default;}
+.booklet .b-grabbing {cursor: url("../../images/libs/closedhand.cur"), default;}
+.b-wrap {
+	padding: 0px !important;
+}

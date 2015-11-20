@@ -1,0 +1,9 @@
+.languages-wrapper {
+	position: absolute;
+	right: 10px;
+	top: 5px;	
+	z-index: 1001;
+}
+.language {
+	cursor: pointer;	
+}

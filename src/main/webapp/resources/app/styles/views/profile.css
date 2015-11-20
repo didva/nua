@@ -1,0 +1,31 @@
+.profile--info {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.profile--info-img {
+	display: inline-block;
+	vertical-align: middle;
+    margin-right: 10px;
+}
+.profile--change-password-form {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+.profile--change-password-btn {
+    outline: none;
+    margin-bottom: 5px;
+	box-shadow: 2px 2px 2px #888888;
+    border-color: #883D63;
+    background-color: #883D63;
+    color: #FFF;
+    border: none;
+}
+.profile--change-password-btn:hover, .profile--change-password-btn:active, .profile--change-password-btn:focus, .profile--change-password-btn:active:focus {
+	outline: none;
+	color: #FFF;
+	border: none;
+}
+.profile--change-password-input {
+	margin-bottom: 5px;
+}

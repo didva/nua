@@ -1,0 +1,49 @@
+.login-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+.login-btn {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.login-btn:focus, .login-btn:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+.login--input {
+    margin: 10 auto;
+    width: 250px;
+}
+.login--form {
+    text-align: center;
+    width: 300px;
+}
+.login--btn {
+    outline: none;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 2px #888888;
+    border-color: #883D63;
+    background-color: #883D63;
+    color: #FFF;
+    border: none;
+}
+.login--btn:hover, .login--btn:active, .login--btn:focus, .login--btn:active:focus {
+    outline: none;
+    color: #FFF;
+    border: none;
+}
+@media (min-width: 768px){ 
+    .login-btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        cursor: pointer;
+    }
+}
+.nav .open>a {
+    background-color: #cdbfe3;
+}
+.dropdown-menu {
+    z-index: 5001;
+}

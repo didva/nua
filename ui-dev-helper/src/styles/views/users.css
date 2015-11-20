@@ -1,0 +1,82 @@
+ .users-table {
+	width: 100%;
+	table-layout: fixed;
+	text-align: center;
+}
+
+.users-table th {
+	height: 60px;
+	background: #883D63;
+	color: #fff;
+	font-size: 20px;
+	border-left: 1px solid #fff;
+	border-bottom: 5px solid #fff;
+	text-align: center;
+	padding: 5px;
+}
+ .users-table th:first-child{
+	border-left: none;
+}
+
+ .users-table td {
+ 	height: 60px;
+	vertical-align: middle;
+	border: 1px solid #fff;
+	background: #FFF6E5;
+	transition:         background .25s ease;
+  	-webkit-transition: background .25s ease;
+	-moz-transition:    background .25s ease;
+	-o-transition:      background .25s ease;
+	padding: 5px 10px;
+}
+.users-table tr:hover td{background-color:#FDEFD4;}
+
+.users-table--name {
+	width: 20%;
+}
+.users-table--roles {
+	width: 60%;
+}
+.users-table--actions {
+	width: 20%;
+}
+
+.users-table--action-btn {
+	background-color: transparent;
+    border: 0px solid;
+    outline: none;
+}
+.users-table--action-btn>img {
+	height: 30px;
+    width: 30px;
+}
+.users-add-form {
+	margin-top: 20px;
+	text-align: center;
+}
+.users-add-form--btn {
+    outline: none;
+	margin-left: 10px;
+	box-shadow: 2px 2px 2px #888888;
+    border-color: #883D63;
+    background-color: #883D63;
+    color: #FFF;
+    border: none;
+}
+.users-add-form--btn:hover, .users-add-form--btn:active, .users-add-form--btn:focus, .users-add-form--btn:active:focus {
+	outline: none;
+	color: #FFF;
+	border: none;
+}
+.users-add-form--input {
+    width: 300px;
+    display: inline-block;
+    height: 45px;
+}
+.users-add-form--info-box {
+	margin-top: 20px;
+}
+.users-add-form--inputs {
+    display: inline-block;
+    vertical-align: middle;
+}

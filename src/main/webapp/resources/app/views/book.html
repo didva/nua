@@ -1,0 +1,11 @@
+<div class="book-wrapper">
+    <h4>{{book.name}} <a href='#booklet/{{book.bookId}}'>(читать)</a></h4>
+    <div class="book-viewer-wrapper">
+        <div class="book-viewer"></div>
+        <div class="book-viewer--spinner"><img src="images/loading_spinner.gif"></div>
+        <div class="book-viwer--not-allowed">You are not allowed to view this page!</div>
+    </div>
+    <div class="catalogue-paging-wrapper">
+        <pagination boundary-links="true" total-items="book.pageCount" items-per-page="1" ng-model="book.currentPage" max-size="5" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;" ng-change="pageChanged()"></pagination>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+<div class="catalogue-wrapper">
+	<h4 ng-show="searchText">Результаты поиска по запросу '{{searchText}}':</h4>
+	<table class="catalogue-table">
+		<tr>
+			<th class="catalogue-table--name">Название</th>
+			<th class="catalogue-table--author">Автор</th>
+			<th class="catalogue-table--year">Год издания</th>
+			<th class="catalogue-table--page-num">Страницы</th>
+		</tr>
+		<tr ng-repeat="book in books">
+			<td><a href="#/book/{{book.bookId}}">{{book.name}}</a></td>
+			<td>{{book.author}}</td>
+			<td>{{book.year}}</td>
+			<td>{{book.pageCount}}</td>
+		</tr>
+	</table>
+	<div class="catalogue-paging-wrapper">
+		<pagination boundary-links="true" total-items="items.total" items-per-page="items.numPerPage" ng-model="items.currentPage" max-size="items.maxSize" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;" ng-change="pageChanged()"></pagination>
+	</div>
+</div>
